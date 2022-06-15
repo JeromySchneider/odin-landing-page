@@ -3,6 +3,11 @@
   src: url(fonts/Roboto-Regular.ttf);
 }
 
+@font-face {
+  font-family: RobotoLightItalic;
+  src: url(fonts/Roboto-LightItalic.ttf);
+}
+
 body {
   font-family: Roboto, sans-serif;
   margin: 0px;
@@ -95,6 +100,29 @@ body {
   border: 4px solid #3882F6;
   border-radius: 16px;
   padding: 75px;
+}
+
+.three {
+  display: flex;
+  justify-content: space-around;
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-family: RobotoLightItalic, sans-serif;
+  color: #1f2937;
+  padding: 100px 0px;
+}
+
+.three-main {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+.author {
+  align-self: flex-end;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 button {
