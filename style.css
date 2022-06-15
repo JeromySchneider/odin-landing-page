@@ -66,6 +66,37 @@ body {
   gap: 16px;
 }
 
+.two {
+  padding-bottom: 80px;
+}
+
+.two-header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  padding: 36px;
+}
+
+.two-main {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.product {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 8px;
+}
+
+.pic {
+  border: 4px solid #3882F6;
+  border-radius: 16px;
+  padding: 75px;
+}
+
 button {
   background-color: #3882F6;
   color: #E5E7EB;
