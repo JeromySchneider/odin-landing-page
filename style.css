@@ -37,6 +37,7 @@ body {
 
 .logo {
   font-size: 24px;
+  font-weight: bold;
   color: #F9FAF8;
 }
 
@@ -125,9 +126,39 @@ body {
   font-weight: bold;
 }
 
+.four {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  border-radius: 5px;
+  padding: 50px 100px;
+  background-color: #3882F6;
+  margin: 100px auto;
+}
+
+.four-main {
+  display: flex;
+  flex-direction: column;
+  color: #F9FAF8;
+}
+
+.four-header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.four button {
+  border: 2px solid #F9FAF8;
+}
+
+.footer {
+  text-align: center;
+  padding: 36px;
+}
+
 button {
   background-color: #3882F6;
-  color: #E5E7EB;
+  color: #F9FAF8;
   font-weight: bold;
   width: fit-content;
   padding: 8px 32px;
